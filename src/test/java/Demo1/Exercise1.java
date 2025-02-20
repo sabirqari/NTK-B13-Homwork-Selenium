@@ -1,6 +1,8 @@
 package Demo1;
 
 
+import java.awt.RenderingHints.Key;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
@@ -15,7 +17,7 @@ public class Exercise1 extends Hooks{
         Thread.sleep(3000);
 		
 		WebElement usernameField = driver.findElement(By.name("username"));
-		usernameField.sendKeys("admin" );
+		usernameField.sendKeys("admin");
 		
 		Thread.sleep(3000);
 		
